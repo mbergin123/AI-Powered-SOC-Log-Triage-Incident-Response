@@ -2,9 +2,9 @@
 
 ## 📌 Overview
 
-This project demonstrates the development of a Security Operations Center (SOC) triage tool built on Ubuntu. The system analyzes Linux authentication logs to detect brute-force login attempts, extract indicators of compromise (IOCs), classify incident severity, and generate structured incident reports.
+This project simulates a real-world Security Operations Center (SOC) workflow by combining log analysis, threat detection, and AI-assisted incident response. Built on Ubuntu using Python, the tool analyzes Linux authentication logs to identify brute-force login attempts, extract indicators of compromise (IOCs), classify incident severity, and generate structured incident reports.
 
-The project also integrates AI to enhance analysis and simulate real-world SOC workflows.
+The system also integrates AI to provide contextual analysis and recommended response actions, reflecting modern SOC practices.
 
 ---
 
