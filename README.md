@@ -6,7 +6,6 @@ This project simulates a real-world Security Operations Center (SOC) workflow by
 
 The system also integrates AI to provide contextual analysis and recommended response actions, reflecting modern SOC practices.
 
-⚠️ All logs and IP addresses used in this project are part of a controlled lab environment.
 
 ---
 
