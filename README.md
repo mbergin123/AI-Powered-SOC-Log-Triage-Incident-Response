@@ -124,7 +124,7 @@ Results:
 
 ## 🚀 AI-Enhanced Execution
 
-
+![AI_scriptCreated](images/aiscriptinput.png)
 ![AI Script Run](images/reranaiscript.png)
 
 The AI-integrated script successfully:
