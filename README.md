@@ -34,7 +34,7 @@ The project also integrates AI to enhance analysis and simulate real-world SOC w
 
 📸 Screenshot: **tree_clean.png**
 
-![Project Structure](images/tree_clean.png)
+![Project Structure](images/thetree.png)
 
 ```
 ai-soc-triage-assistant/
