@@ -184,7 +184,15 @@ This project reflects real SOC analyst responsibilities:
 * AI-assisted analysis and response planning
 
 ---
-
+## 🧩 Key Skills Demonstrated
+- Linux system administration
+- Log analysis and threat detection
+- Python scripting and automation
+- Regular expression (regex) parsing
+- Incident response and triage
+- API integration (OpenAI)
+- Secure handling of environment variables
+---
 ## 🚀 Future Improvements
 
 * Real-time log monitoring
