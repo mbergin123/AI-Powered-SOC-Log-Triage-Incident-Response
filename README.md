@@ -2,7 +2,9 @@
 
 ## 📌 Overview
 
-This project demonstrates the development of an AI-assisted Security Operations Center (SOC) triage tool built on Ubuntu. The system analyzes Linux authentication logs to detect suspicious activity such as brute-force login attempts, extracts indicators of compromise (IOCs), classifies incident severity, and generates structured incident reports.
+This project demonstrates the development of a Security Operations Center (SOC) triage tool built on Ubuntu. The system analyzes Linux authentication logs to detect brute-force login attempts, extract indicators of compromise (IOCs), classify incident severity, and generate structured incident reports.
+
+The project also integrates AI to enhance analysis and simulate real-world SOC workflows.
 
 ---
 
@@ -10,10 +12,10 @@ This project demonstrates the development of an AI-assisted Security Operations 
 
 * Analyze Linux authentication logs (`auth.log`)
 * Detect brute-force login attempts
-* Extract indicators of compromise (IP addresses, user activity)
+* Extract indicators of compromise (IP addresses)
 * Classify incident severity
-* Generate automated reports
-* Enhance analysis using AI
+* Generate automated incident reports
+* Integrate AI for enhanced analysis
 
 ---
 
@@ -30,20 +32,17 @@ This project demonstrates the development of an AI-assisted Security Operations 
 
 ## 🧱 Project Structure
 
-**Screenshot: `tree.png`**
+📸 Screenshot: **tree_clean.png**
 
-```markdown
-![Project Structure](tree.png)
+![Project Structure](images/tree_clean.png)
+
 ```
-
-```text
 ai-soc-triage-assistant/
 ├── logs/
 ├── reports/
 ├── soc_triage.py
 ├── soc_triage_ai.py
-├── .env
-└── venv/
+└── images/
 ```
 
 ---
@@ -52,130 +51,117 @@ ai-soc-triage-assistant/
 
 ### 🖥️ Virtual Machine Setup
 
-**Screenshot: `vm.png`**
+📸 Screenshot: **VM.png**
 
-```markdown
-![VM Setup](vm.png)
-```
+![VM Setup](images/VM.png)
 
-* Configured Ubuntu in VMware
-* Fixed NAT/network connectivity issue
+* Configured Ubuntu VM in VMware
+* Resolved network connectivity issues (NAT misconfiguration)
 * Verified internet access
 
 ---
 
 ### 📦 Dependency Installation
 
-**Screenshot: `pythonpackage.png`**
+📸 Screenshot: **pythonpackage.png**
 
-```markdown
-![Python Packages Installed](pythonpackage.png)
-```
+![Python Packages](images/pythonpackage.png)
 
-Installed:
-
-* Python3
-* pip
-* virtual environment
-* OpenAI SDK
-* python-dotenv
+* Installed Python, pip, and virtual environment
+* Installed required libraries: `openai`, `python-dotenv`
 
 ---
 
 ## 📄 Log Data Preparation
 
-**Screenshot: `samplelog.png`**
+📸 Screenshot: **samplelog.png**
 
-```markdown
-![Sample Log File](samplelog.png)
-```
+![Sample Log](images/samplelog.png)
 
-Created simulated authentication logs containing:
+Created a simulated authentication log containing:
 
-* Failed SSH login attempts
-* Successful login
-* Privileged command (sudo)
+* Multiple failed SSH login attempts
+* Successful login activity
+* Privileged command execution (`sudo`)
 
 ---
 
 ## 🧠 Rule-Based Detection Script
 
-**Screenshot: `correctscript.png`**
+📸 Screenshot: **correctscript.png**
 
-```markdown
-![Core Script](correctscript.png)
-```
+![Script](images/correctscript.png)
 
-This script:
+The rule-based script:
 
 * Parses authentication logs
-* Counts failed/successful logins
+* Counts failed and successful login attempts
 * Extracts IP addresses
 * Detects suspicious patterns
-* Classifies severity
+* Classifies severity levels
 
 ---
 
 ## ▶️ Script Execution (Rule-Based)
 
-**Screenshot: `scriptran.png`**
+📸 Screenshot: **scriptran.png**
 
-```markdown
-![Script Execution](scriptran.png)
-```
+![Script Run](images/scriptran.png)
 
-Output:
+Results:
 
-* Detected brute-force behavior
+* Detected brute-force login behavior
 * Classified severity as **High**
-* Generated structured report
+* Generated structured incident report
 
 ---
 
 ## 🤖 AI Integration Setup
 
-**Screenshot: `aipython.png`**
+📸 Screenshot: **aipython.png**
 
-```markdown
-![AI Dependencies Installed](aipython.png)
-```
+![AI Setup](images/aipython.png)
 
-* Stored API key securely in `.env`
-* Installed `openai` and `python-dotenv`
-* Prepared environment for AI analysis
+* Secured API key using `.env`
+* Installed OpenAI SDK and dotenv
+* Built AI-enhanced script (`soc_triage_ai.py`)
 
 ---
 
 ## 🚀 AI-Enhanced Execution
 
-**Screenshot: `airun.png`**
+📸 Screenshot: **reranaiscript.png**
 
-```markdown
-![AI Script Run](airun.png)
-```
+![AI Script Run](images/reranaiscript.png)
 
-AI script:
+The AI-integrated script successfully:
 
-* Processes extracted indicators
-* Sends structured prompt to OpenAI
-* Receives contextual analysis
+* Processed authentication log data
+* Sent structured analysis to the OpenAI API
+* Generated contextual incident analysis
+* Provided recommended response actions
 
 ---
 
-## 📊 Final AI-Generated Report
+## 📊 AI-Generated Incident Report
 
-**Screenshot: `aireport.png`**
+📸 Screenshot: **correctaireport.png**
 
-```markdown
-![AI Report Output](aireport.png)
-```
+![AI Report](images/correctaireport.png)
 
-Report includes:
+The AI-enhanced report includes:
 
 * Severity classification
-* Indicators of compromise (IPs)
-* Attack explanation
+* Identification of brute-force behavior
+* Internal vs external activity analysis
+* MITRE ATT&CK technique mapping
 * Recommended response actions
+
+---
+
+## ⚠️ Note
+
+All logs, IP addresses, and activity shown in this project are part of a controlled lab environment and do not represent real systems.
 
 ---
 
@@ -183,19 +169,19 @@ Report includes:
 
 * Built a SOC-style triage workflow from scratch
 * Combined rule-based detection with AI analysis
-* Simulated real-world incident investigation
-* Strengthened Linux + Python + cybersecurity skills
+* Simulated real-world log investigation
+* Troubleshot networking, Python environment, and API integration issues
 
 ---
 
 ## 💼 Why This Project Matters
 
-This project reflects real SOC responsibilities:
+This project reflects real SOC analyst responsibilities:
 
-* Log analysis
-* Threat detection
-* Incident classification
-* Response recommendations
+* Log analysis and threat detection
+* Incident classification and escalation
+* Indicator extraction and investigation
+* AI-assisted analysis and response planning
 
 ---
 
