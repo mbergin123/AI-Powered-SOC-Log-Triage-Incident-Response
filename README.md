@@ -176,12 +176,7 @@ All logs, IP addresses, and activity shown in this project are part of a control
 
 ## 💼 Why This Project Matters
 
-This project reflects real SOC analyst responsibilities:
-
-* Log analysis and threat detection
-* Incident classification and escalation
-* Indicator extraction and investigation
-* AI-assisted analysis and response planning
+This project demonstrates practical SOC analyst skills including log analysis, threat detection, incident classification, and response planning. It also showcases the integration of AI into security workflows, reflecting modern security operations environments.
 
 ---
 ## 🧩 Key Skills Demonstrated
