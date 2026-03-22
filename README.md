@@ -32,7 +32,6 @@ The project also integrates AI to enhance analysis and simulate real-world SOC w
 
 ## 🧱 Project Structure
 
-📸 Screenshot: **tree_clean.png**
 
 ![Project Structure](images/thetree.png)
 
@@ -51,7 +50,6 @@ ai-soc-triage-assistant/
 
 ### 🖥️ Virtual Machine Setup
 
-📸 Screenshot: **VM.png**
 
 ![VM Setup](images/VM.png)
 
@@ -63,7 +61,6 @@ ai-soc-triage-assistant/
 
 ### 📦 Dependency Installation
 
-📸 Screenshot: **pythonpackage.png**
 
 ![Python Packages](images/pythonpackage.png)
 
@@ -74,7 +71,6 @@ ai-soc-triage-assistant/
 
 ## 📄 Log Data Preparation
 
-📸 Screenshot: **samplelog.png**
 
 ![Sample Log](images/samplelog.png)
 
@@ -88,7 +84,6 @@ Created a simulated authentication log containing:
 
 ## 🧠 Rule-Based Detection Script
 
-📸 Screenshot: **correctscript.png**
 
 ![Script](images/correctscript.png)
 
@@ -104,7 +99,6 @@ The rule-based script:
 
 ## ▶️ Script Execution (Rule-Based)
 
-📸 Screenshot: **scriptran.png**
 
 ![Script Run](images/scriptran.png)
 
@@ -118,7 +112,6 @@ Results:
 
 ## 🤖 AI Integration Setup
 
-📸 Screenshot: **aipython.png**
 
 ![AI Setup](images/aipython.png)
 
@@ -130,7 +123,6 @@ Results:
 
 ## 🚀 AI-Enhanced Execution
 
-📸 Screenshot: **reranaiscript.png**
 
 ![AI Script Run](images/reranaiscript.png)
 
@@ -145,7 +137,8 @@ The AI-integrated script successfully:
 
 ## 📊 AI-Generated Incident Report
 
-📸 Screenshot: **correctaireport.png**
+### 🧠 Example Insight
+The AI identified a combination of external brute-force attempts and suspicious internal activity involving privileged access, highlighting potential credential misuse or escalation.
 
 ![AI Report](images/correctaireport.png)
 
